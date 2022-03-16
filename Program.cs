@@ -7,8 +7,7 @@ namespace AlgorithmProblems
         static void Main(string[] args)
         {
             Console.WriteLine("algorithm problems");
-            MergeSort mergeSort = new MergeSort();
-            mergeSort.UserInput();
+            Anagram anagram = new Anagram("heart", "earth");
         }
     }
 }
