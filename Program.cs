@@ -7,12 +7,8 @@ namespace AlgorithmProblems
         static void Main(string[] args)
         {
             Console.WriteLine("algorithm problems");
-
-            BubbleSort bubbleSort = new BubbleSort();
-            bubbleSort.UserInput<string>();
-
-            WordList wordList = new WordList();
-            wordList.UserInput<string>();
+            StringPermutation stringPermutation = new StringPermutation();
+            stringPermutation.UserInput();
         }
     }
 }
